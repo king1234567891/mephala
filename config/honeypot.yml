@@ -1,0 +1,83 @@
+# HoneyTrap Main Configuration
+# Override with environment variables using uppercase names (e.g., SSH_PORT=2222)
+
+env: development
+debug: true
+
+ssh:
+  enabled: true
+  host: "0.0.0.0"
+  port: 2222
+  banner: "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.4"
+  max_auth_attempts: 6
+  login_timeout: 120
+  fake_users:
+    - root
+    - admin
+    - ubuntu
+    - user
+    - guest
+  allowed_passwords:
+    - password
+    - 123456
+    - admin
+    - root
+    - test
+
+http:
+  enabled: true
+  host: "0.0.0.0"
+  port: 8080
+  https_port: 8443
+  ssl_enabled: false
+  server_header: "Apache/2.4.52 (Ubuntu)"
+  max_request_size: 10485760  # 10MB
+
+ftp:
+  enabled: true
+  host: "0.0.0.0"
+  port: 2121
+  passive_ports: [60000, 60100]
+  banner: "220 FTP Server ready"
+  max_login_attempts: 3
+  anonymous_enabled: true
+
+database:
+  url: "postgresql+asyncpg://honeytrap:honeytrap@localhost:5432/honeytrap"
+  pool_size: 10
+  max_overflow: 20
+  echo: false
+
+redis:
+  url: "redis://localhost:6379/0"
+  max_connections: 10
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  secret_key: "change-this-in-production"
+  access_token_expire_minutes: 30
+  cors_origins:
+    - "*"
+  debug: true
+
+logging:
+  level: "INFO"
+  format: "json"
+  file: "data/logs/honeytrap.log"
+  max_size_mb: 100
+  backup_count: 5
+  console_output: true
+
+ml:
+  model_path: "ml/models/"
+  retrain_interval_hours: 24
+  min_samples_for_training: 1000
+  confidence_threshold: 0.7
+
+geoip:
+  database_path: "data/GeoLite2-City.mmdb"
+  enabled: true
+
+threat_intel:
+  cache_ttl_seconds: 3600
