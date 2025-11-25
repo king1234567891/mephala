@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/🕷️-MEPHALA-8b5cf6?style=for-the-badge&labelColor=0d0d0d" alt="Mephala"/>
 </p>
+<img width="1536" height="1024" alt="mephala" src="https://github.com/user-attachments/assets/1ece7e54-3f36-43f9-aaa9-a7aae7a871b8" />
 
 <h1 align="center">
   <code>༺ MEPHALA ༻</code>
