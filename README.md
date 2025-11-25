@@ -25,7 +25,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/tests-155_passing-a855f7?style=flat-square&labelColor=0d0d0d" alt="Tests"/>
   <img src="https://img.shields.io/badge/ML-Random_Forest-c084fc?style=flat-square&labelColor=0d0d0d" alt="ML"/>
-  <img src="https://img.shields.io/badge/license-MIT-8b5cf6?style=flat-square&labelColor=0d0d0d" alt="License"/>
+  <img src="https://img.shields.io/badge/license-BSL_1.1-8b5cf6?style=flat-square&labelColor=0d0d0d" alt="License"/>
 </p>
 
 <br/>
@@ -482,15 +482,29 @@ Unauthorized deployment may violate local laws and regulations.
 ## ༺ License ༻
 
 ```
-MIT License
+Business Source License 1.1 (BSL)
 
 Copyright (c) 2024 ind4skylivey
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software.
+┌─────────────────────────────────────────────────────────────────┐
+│  ✅ ALLOWED                                                     │
+│     → Personal use                                              │
+│     → Educational use                                           │
+│     → Security research                                         │
+│     → Internal company use                                      │
+│     → Modification and derivatives                              │
+│                                                                 │
+│  ❌ NOT ALLOWED (without commercial license)                    │
+│     → Offering Mephala as a commercial service                  │
+│     → Selling access to honeypot deployments                    │
+│     → Reselling threat intelligence data                        │
+│                                                                 │
+│  📅 CHANGE DATE: January 1, 2028                                │
+│     → Automatically converts to GPL-3.0                         │
+│     → Full open source after this date                          │
+└─────────────────────────────────────────────────────────────────┘
+
+For commercial licensing inquiries: Contact ind4skylivey
 ```
 
 ---
