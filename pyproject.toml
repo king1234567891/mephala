@@ -3,16 +3,16 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "honeytrap"
-version = "0.1.0"
-description = "Intelligent honeypot system with ML-based threat classification"
+name = "shadowlure"
+version = "1.0.0"
+description = "Advanced deception platform with ML-powered threat intelligence"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
 authors = [
     {name = "ind4skylivey"}
 ]
-keywords = ["honeypot", "security", "threat-detection", "machine-learning"]
+keywords = ["honeypot", "deception", "security", "threat-intelligence", "machine-learning"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -28,11 +28,11 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ind4skylivey/honeytrap"
-Repository = "https://github.com/ind4skylivey/honeytrap"
+Homepage = "https://github.com/ind4skylivey/shadowlure"
+Repository = "https://github.com/ind4skylivey/shadowlure"
 
 [project.scripts]
-honeytrap = "core.honeypot:main"
+shadowlure = "core.honeypot:main"
 
 [tool.setuptools.packages.find]
 include = ["core*", "services*", "ml*", "api*"]

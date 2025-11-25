@@ -1,5 +1,5 @@
 """
-Pytest configuration and fixtures for HoneyTrap tests.
+Pytest configuration and fixtures for ShadowLure tests.
 """
 
 import asyncio
@@ -14,7 +14,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.pool import StaticPool
 
 # Set test environment
-os.environ["HONEYTRAP_ENV"] = "testing"
+os.environ["SHADOWLURE_ENV"] = "testing"
 os.environ["DATABASE_URL"] = "sqlite+aiosqlite:///:memory:"
 
 from core.config import Config, reload_config

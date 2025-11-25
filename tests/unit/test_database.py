@@ -301,7 +301,7 @@ class TestUserModel:
     async def test_create_user(self, db_session):
         user = User(
             username="admin",
-            email="admin@honeytrap.local",
+            email="admin@shadowlure.local",
             hashed_password="hashed_password_here",
             is_admin=True,
         )

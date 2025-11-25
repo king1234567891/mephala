@@ -1,1 +1,1 @@
-"""HoneyTrap Test Suite."""
+"""ShadowLure Test Suite."""

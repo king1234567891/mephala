@@ -1,5 +1,5 @@
 """
-HoneyTrap Base Service Module
+ShadowLure Base Service Module
 
 Abstract base class for all honeypot services.
 Defines the interface and common functionality for SSH, HTTP, FTP honeypots.

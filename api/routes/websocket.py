@@ -93,7 +93,7 @@ async def websocket_live_feed(websocket: WebSocket):
     try:
         await manager.send_to_client(websocket, {
             "event": "connected",
-            "message": "Connected to HoneyTrap live feed",
+            "message": "Connected to ShadowLure live feed",
             "timestamp": datetime.utcnow().isoformat(),
         })
 

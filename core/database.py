@@ -1,5 +1,5 @@
 """
-HoneyTrap Database Module
+ShadowLure Database Module
 
 SQLAlchemy async ORM models and session management.
 Implements the complete database schema for attack logging and analysis.

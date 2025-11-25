@@ -1,426 +1,329 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/🍯-HoneyTrap-ff6b6b?style=for-the-badge&labelColor=1a1a2e" alt="HoneyTrap"/>
+  <img src="https://img.shields.io/badge/👁️-SHADOWLURE-0d1117?style=for-the-badge&labelColor=ff0040" alt="ShadowLure"/>
 </p>
 
 <h1 align="center">
-  <code>HoneyTrap</code>
+  <code style="color: #ff0040;">⬡ ShadowLure ⬡</code>
 </h1>
 
 <p align="center">
-  <strong>Intelligent Honeypot System with ML-Powered Threat Classification</strong>
+  <strong>Advanced Deception Platform with ML-Powered Threat Intelligence</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/python-3.10+-00d4ff?style=flat-square&logo=python&logoColor=white&labelColor=0d1117" alt="Python"/>
-  <img src="https://img.shields.io/badge/fastapi-0.108+-00d4ff?style=flat-square&logo=fastapi&logoColor=white&labelColor=0d1117" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/vue.js-3.4+-00d4ff?style=flat-square&logo=vue.js&logoColor=white&labelColor=0d1117" alt="Vue.js"/>
-  <img src="https://img.shields.io/badge/docker-ready-00d4ff?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117" alt="Docker"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/tests-155_passing-00ff88?style=flat-square&labelColor=0d1117" alt="Tests"/>
-  <img src="https://img.shields.io/badge/coverage-85%25-00ff88?style=flat-square&labelColor=0d1117" alt="Coverage"/>
-  <img src="https://img.shields.io/badge/license-MIT-ff6b6b?style=flat-square&labelColor=0d1117" alt="License"/>
+  <sub>
+    <em>"In the shadows, we watch. In the lure, they fall."</em>
+  </sub>
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
+  <img src="https://img.shields.io/badge/python-3.10+-ff0040?style=flat-square&logo=python&logoColor=white&labelColor=0d1117" alt="Python"/>
+  <img src="https://img.shields.io/badge/asyncio-native-ff0040?style=flat-square&logo=python&logoColor=white&labelColor=0d1117" alt="AsyncIO"/>
+  <img src="https://img.shields.io/badge/fastapi-0.108+-ff0040?style=flat-square&logo=fastapi&logoColor=white&labelColor=0d1117" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/vue.js-3.4+-ff0040?style=flat-square&logo=vue.js&logoColor=white&labelColor=0d1117" alt="Vue.js"/>
+  <img src="https://img.shields.io/badge/docker-ready-ff0040?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117" alt="Docker"/>
 </p>
-
-## ⚡ Overview
-
-**HoneyTrap** is a high-interaction honeypot system designed to simulate vulnerable network services, capture real-world attack patterns, and classify threats using machine learning.
-
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│   ╭─────────╮    ╭─────────╮    ╭─────────╮    ╭─────────╮      │
-│   │   SSH   │    │  HTTP   │    │   FTP   │    │   ML    │      │
-│   │  :2222  │    │  :8080  │    │  :2121  │    │ Engine  │      │
-│   ╰────┬────╯    ╰────┬────╯    ╰────┬────╯    ╰────┬────╯      │
-│        │              │              │              │            │
-│        └──────────────┴──────────────┴──────────────┘            │
-│                           │                                      │
-│                    ╭──────┴──────╮                               │
-│                    │  PostgreSQL │                               │
-│                    │    Redis    │                               │
-│                    ╰──────┬──────╯                               │
-│                           │                                      │
-│                    ╭──────┴──────╮                               │
-│                    │  Dashboard  │                               │
-│                    │   :3000     │                               │
-│                    ╰─────────────╯                               │
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
-```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
+  <img src="https://img.shields.io/badge/tests-155_passing-00ff88?style=flat-square&labelColor=0d1117" alt="Tests"/>
+  <img src="https://img.shields.io/badge/ML-Random_Forest-00d4ff?style=flat-square&labelColor=0d1117" alt="ML"/>
+  <img src="https://img.shields.io/badge/license-MIT-ff0040?style=flat-square&labelColor=0d1117" alt="License"/>
 </p>
 
-## 🎯 Features
+<br/>
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   ███████╗██╗  ██╗ █████╗ ██████╗  ██████╗ ██╗    ██╗██╗     ██╗   ██╗██████╗███████╗   │
+│   ██╔════╝██║  ██║██╔══██╗██╔══██╗██╔═══██╗██║    ██║██║     ██║   ██║██╔══██╗██╔════╝  │
+│   ███████╗███████║███████║██║  ██║██║   ██║██║ █╗ ██║██║     ██║   ██║██████╔╝█████╗    │
+│   ╚════██║██╔══██║██╔══██║██║  ██║██║   ██║██║███╗██║██║     ██║   ██║██╔══██╗██╔══╝    │
+│   ███████║██║  ██║██║  ██║██████╔╝╚██████╔╝╚███╔███╔╝███████╗╚██████╔╝██║  ██║███████╗  │
+│   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝  │
+│                                                                             │
+│                    [ DECEPTION WARFARE SYSTEM v1.0 ]                        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## ◈ Overview
+
+**ShadowLure** is a high-interaction deception platform engineered to simulate vulnerable network services, harvest attack intelligence, and classify threats in real-time using machine learning.
+
+```
+                              ┌──────────────┐
+                              │   ATTACKER   │
+                              └──────┬───────┘
+                                     │
+                    ┌────────────────┼────────────────┐
+                    ▼                ▼                ▼
+             ┌──────────┐     ┌──────────┐     ┌──────────┐
+             │   SSH    │     │   HTTP   │     │   FTP    │
+             │  :2222   │     │  :8080   │     │  :2121   │
+             │ ◉ TRAP   │     │ ◉ TRAP   │     │ ◉ TRAP   │
+             └────┬─────┘     └────┬─────┘     └────┬─────┘
+                  │                │                │
+                  └────────────────┼────────────────┘
+                                   ▼
+                         ┌─────────────────┐
+                         │  ⚡ ML ENGINE   │
+                         │  Classification │
+                         │  Anomaly Detect │
+                         └────────┬────────┘
+                                  ▼
+                    ┌─────────────────────────┐
+                    │     ◈ SHADOWLURE DB     │
+                    │  PostgreSQL + Redis     │
+                    └─────────────┬───────────┘
+                                  ▼
+                         ┌────────────────┐
+                         │   DASHBOARD    │
+                         │   Real-time    │
+                         │   Intelligence │
+                         └────────────────┘
+```
+
+---
+
+## ◈ Arsenal
 
 <table>
 <tr>
 <td width="50%">
 
-### 🔐 SSH Honeypot
-- Credential harvesting
-- Fake shell with 25+ commands
-- Virtual filesystem (`/etc/passwd`, `/etc/shadow`)
-- Session recording & command logging
-- Malicious payload detection
+### 🔐 SSH Deception
+```
+◉ Credential harvesting
+◉ Fake shell (25+ commands)
+◉ Virtual filesystem
+◉ Session recording
+◉ Payload detection
+```
 
 </td>
 <td width="50%">
 
-### 🌐 HTTP Honeypot
-- WordPress & phpMyAdmin simulation
-- Admin panel honeytokens
-- SQLi / XSS / RCE detection
-- File upload capture
-- Request payload logging
+### 🌐 HTTP Deception
+```
+◉ WordPress simulation
+◉ phpMyAdmin traps
+◉ SQLi/XSS/RCE detection
+◉ File upload capture
+◉ Request forensics
+```
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 📁 FTP Honeypot
-- Anonymous & authenticated access
-- Passive/Active mode support
-- File upload/download capture
-- Directory traversal logging
-- Malware quarantine
+### 📁 FTP Deception
+```
+◉ Anonymous access traps
+◉ Passive/Active modes
+◉ Malware quarantine
+◉ Transfer logging
+◉ Directory traversal detection
+```
 
 </td>
 <td width="50%">
 
 ### 🧠 ML Classification
-- Random Forest attack classifier
-- Isolation Forest anomaly detection
-- Real-time threat scoring
-- Auto-labeling pipeline
-- Model versioning & metrics
+```
+◉ Random Forest classifier
+◉ Isolation Forest anomaly
+◉ Real-time threat scoring
+◉ Auto-labeling pipeline
+◉ Model versioning
+```
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
-</p>
+---
 
-## 🚀 Quick Start
+## ◈ Deployment
 
 ### Docker (Recommended)
 
 ```bash
-# Clone repository
-git clone https://github.com/ind4skylivey/honeytrap.git
-cd honeytrap
+# Clone
+git clone https://github.com/ind4skylivey/shadowlure.git
+cd shadowlure
 
-# Configure environment
+# Configure
 cp .env.example .env
-# Edit .env with your settings
+nano .env  # Set your secrets
 
-# Launch all services
+# Deploy
 cd docker && docker-compose up -d
 
-# View logs
-docker-compose logs -f honeytrap
+# Monitor
+docker-compose logs -f shadowlure
 ```
 
-### Manual Installation
+### Manual
 
 ```bash
-# Clone and setup
-git clone https://github.com/ind4skylivey/honeytrap.git
-cd honeytrap
+git clone https://github.com/ind4skylivey/shadowlure.git
+cd shadowlure
 
-# Run setup script
-chmod +x scripts/setup.sh
-./scripts/setup.sh
-
-# Start PostgreSQL and Redis (required)
-# Then run migrations
-alembic upgrade head
-
-# Start honeypot services
-python core/honeypot.py
-
-# Start API (separate terminal)
-uvicorn api.server:app --reload --port 8000
-
-# Start dashboard (separate terminal)
-cd dashboard && npm install && npm run dev
-```
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
-</p>
-
-## 📊 Dashboard
-
-<table>
-<tr>
-<td align="center">
-<strong>Real-time Attack Feed</strong><br/>
-<sub>Live WebSocket updates with severity indicators</sub>
-</td>
-<td align="center">
-<strong>Geographic Map</strong><br/>
-<sub>Attack origins with Leaflet visualization</sub>
-</td>
-</tr>
-<tr>
-<td align="center">
-<strong>Timeline Charts</strong><br/>
-<sub>Attack frequency over time with Chart.js</sub>
-</td>
-<td align="center">
-<strong>Attack Analytics</strong><br/>
-<sub>Type distribution, top attackers, statistics</sub>
-</td>
-</tr>
-</table>
-
-**Access Points:**
-| Service | URL | Description |
-|---------|-----|-------------|
-| Dashboard | `http://localhost:3000` | Vue.js frontend |
-| API Docs | `http://localhost:8000/docs` | Swagger UI |
-| WebSocket | `ws://localhost:8000/ws/live` | Real-time feed |
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
-</p>
-
-## 🏗️ Architecture
-
-```
-honeytrap/
-├── core/                   # System nucleus
-│   ├── base_service.py     # Abstract honeypot base class
-│   ├── config.py           # Pydantic configuration
-│   ├── database.py         # SQLAlchemy async ORM
-│   ├── honeypot.py         # Main orchestrator
-│   └── logger.py           # Structured logging
-│
-├── services/               # Honeypot implementations
-│   ├── ssh_honeypot.py     # SSH with asyncssh
-│   ├── http_honeypot.py    # HTTP with aiohttp
-│   ├── ftp_honeypot.py     # FTP with asyncio
-│   └── utils/              # Fake FS, templates, sessions
-│
-├── ml/                     # Machine learning pipeline
-│   ├── preprocessor.py     # Feature extraction
-│   ├── models.py           # RF classifier, Isolation Forest
-│   ├── trainer.py          # Training pipeline
-│   └── predictor.py        # Real-time classification
-│
-├── api/                    # FastAPI REST API
-│   ├── server.py           # Application factory
-│   ├── auth.py             # JWT authentication
-│   └── routes/             # Endpoint definitions
-│
-├── dashboard/              # Vue.js 3 frontend
-│   └── src/
-│       ├── components/     # Reusable UI components
-│       ├── views/          # Page components
-│       └── stores/         # Pinia state management
-│
-└── docker/                 # Containerization
-    ├── Dockerfile          # Multi-stage build
-    ├── docker-compose.yml  # Service orchestration
-    └── nginx.conf          # Reverse proxy
-```
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
-</p>
-
-## 🔧 Configuration
-
-### Environment Variables
-
-```bash
-# Core
-HONEYTRAP_ENV=production
-DEBUG=false
+# Setup
+chmod +x scripts/setup.sh && ./scripts/setup.sh
 
 # Database
-DATABASE_URL=postgresql+asyncpg://user:pass@localhost:5432/honeytrap
+alembic upgrade head
 
-# Redis
-REDIS_URL=redis://localhost:6379/0
-
-# API
-API_SECRET_KEY=your-secure-secret-key
-API_ACCESS_TOKEN_EXPIRE_MINUTES=30
-
-# Services
-SSH_PORT=2222
-HTTP_PORT=8080
-FTP_PORT=2121
-
-# Logging
-LOG_LEVEL=INFO
-LOG_FORMAT=json
+# Launch (3 terminals)
+python core/honeypot.py                        # Honeypots
+uvicorn api.server:app --reload --port 8000    # API
+cd dashboard && npm install && npm run dev     # Dashboard
 ```
 
-### Service Configuration
+---
 
-```yaml
-# config/honeypot.yml
-ssh:
-  enabled: true
-  port: 2222
-  banner: "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.4"
-  fake_users: [root, admin, ubuntu]
+## ◈ Architecture
 
-http:
-  enabled: true
-  port: 8080
-  server_header: "Apache/2.4.52 (Ubuntu)"
-
-ftp:
-  enabled: true
-  port: 2121
-  anonymous_enabled: true
+```
+shadowlure/
+├── core/                   # ◈ System nucleus
+│   ├── base_service.py     #   Abstract honeypot class
+│   ├── config.py           #   Pydantic configuration
+│   ├── database.py         #   SQLAlchemy async ORM
+│   ├── honeypot.py         #   Main orchestrator
+│   └── logger.py           #   Structured logging
+│
+├── services/               # ◈ Deception layer
+│   ├── ssh_honeypot.py     #   SSH with asyncssh
+│   ├── http_honeypot.py    #   HTTP with aiohttp
+│   ├── ftp_honeypot.py     #   FTP with asyncio
+│   └── utils/              #   Fake FS, templates
+│
+├── ml/                     # ◈ Intelligence engine
+│   ├── preprocessor.py     #   Feature extraction
+│   ├── models.py           #   RF + Isolation Forest
+│   ├── trainer.py          #   Training pipeline
+│   └── predictor.py        #   Real-time classification
+│
+├── api/                    # ◈ Command interface
+│   ├── server.py           #   FastAPI factory
+│   ├── auth.py             #   JWT authentication
+│   └── routes/             #   REST endpoints
+│
+├── dashboard/              # ◈ Tactical display
+│   └── src/
+│       ├── components/     #   UI components
+│       ├── views/          #   Pages
+│       └── stores/         #   State management
+│
+└── docker/                 # ◈ Containerization
+    ├── Dockerfile          #   Multi-stage build
+    └── docker-compose.yml  #   Orchestration
 ```
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
-</p>
+---
 
-## 🧪 Testing
+## ◈ Threat Classification
+
+| Type | Indicator | Severity |
+|:-----|:----------|:--------:|
+| `reconnaissance` | Port scanning, enumeration | 🟢 |
+| `brute_force` | Credential stuffing | 🟡 |
+| `sql_injection` | Database manipulation | 🔴 |
+| `xss` | Cross-site scripting | 🟡 |
+| `rce` | Remote code execution | ⚫ |
+| `path_traversal` | Directory escape | 🟠 |
+| `credential_theft` | Password harvesting | 🟠 |
+
+---
+
+## ◈ API Endpoints
 
 ```bash
-# Run all tests
+# Authentication
+POST /api/v1/auth/login     # Get JWT token
+
+# Intelligence
+GET  /api/v1/attacks        # List attacks (paginated)
+GET  /api/v1/attacks/{id}   # Attack details
+POST /api/v1/attacks/search # Advanced search
+
+# Analytics
+GET  /api/v1/stats/overview    # Dashboard stats
+GET  /api/v1/stats/timeline    # Attack frequency
+GET  /api/v1/stats/geographic  # Geo distribution
+
+# Real-time
+WS   /ws/live               # WebSocket feed
+```
+
+---
+
+## ◈ Access Points
+
+| Service | Port | Description |
+|:--------|:----:|:------------|
+| SSH Trap | `2222` | Credential harvester |
+| HTTP Trap | `8080` | Web attack detector |
+| FTP Trap | `2121` | File transfer monitor |
+| API | `8000` | REST interface |
+| Dashboard | `3000` | Tactical display |
+
+---
+
+## ◈ Testing
+
+```bash
+# Full suite
 pytest tests/ -v
 
 # With coverage
-pytest tests/ --cov=core --cov=services --cov=ml --cov=api
+pytest tests/ --cov=core --cov=services --cov=ml
 
-# Specific module
-pytest tests/unit/test_base_service.py -v
+# Results: 155 tests passing ✓
 ```
 
-**Test Coverage:**
-- ✅ 155 tests passing
-- ✅ Unit tests for all core modules
-- ✅ Integration tests for services
-- ✅ Async test support with pytest-asyncio
+---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
-</p>
+## ◈ Legal
 
-## 🤖 ML Pipeline
+```
+⚠️  AUTHORIZED USE ONLY
 
-### Train Models
+This software is designed for:
+  → Security research on owned infrastructure
+  → Authorized penetration testing
+  → Educational purposes
 
-```bash
-# Generate synthetic data and train
-python scripts/train_models.py --synthetic 5000 --version v1
-
-# Train with custom data
-python scripts/train_models.py --data attacks.csv --tune
-
-# Models saved to ml/models/
+Deploy only on networks you own or have explicit permission.
+The authors assume no liability for misuse.
 ```
 
-### Attack Classification
+---
 
-The ML engine classifies attacks into:
-
-| Type | Description | Severity |
-|------|-------------|----------|
-| `reconnaissance` | Port scanning, enumeration | 🟢 Low |
-| `brute_force` | Credential stuffing | 🟡 Medium |
-| `sql_injection` | Database attacks | 🔴 High |
-| `xss` | Cross-site scripting | 🟡 Medium |
-| `rce` | Remote code execution | 🔴 Critical |
-| `path_traversal` | Directory traversal | 🟠 High |
-| `credential_theft` | Password harvesting | 🟠 High |
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
-</p>
-
-## 📡 API Reference
-
-### Authentication
-
-```bash
-# Login
-curl -X POST http://localhost:8000/api/v1/auth/login \
-  -H "Content-Type: application/json" \
-  -d '{"username": "admin", "password": "admin123"}'
-
-# Response
-{"access_token": "eyJ...", "token_type": "bearer"}
-```
-
-### Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/api/v1/attacks` | List attacks (paginated) |
-| `GET` | `/api/v1/attacks/{id}` | Attack details |
-| `POST` | `/api/v1/attacks/search` | Advanced search |
-| `GET` | `/api/v1/stats/overview` | Dashboard stats |
-| `GET` | `/api/v1/stats/timeline` | Attack timeline |
-| `GET` | `/api/v1/stats/geographic` | Geo distribution |
-| `WS` | `/ws/live` | Real-time feed |
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
-</p>
-
-## ⚠️ Legal Disclaimer
-
-> **This software is intended for authorized security research and educational purposes only.**
->
-> - Deploy only on networks you own or have explicit permission to test
-> - Ensure compliance with local laws and regulations
-> - Do not use captured data for malicious purposes
-> - The authors are not responsible for misuse of this software
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
-</p>
-
-## 📜 License
+## ◈ License
 
 ```
 MIT License
-
 Copyright (c) 2024 ind4skylivey
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 ```
 
+---
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line" width="100%"/>
+  <sub>
+    <strong>◈ ShadowLure ◈</strong><br/>
+    <em>Deception is the art of war.</em>
+  </sub>
 </p>
 
 <p align="center">
-  <sub>Built with ☕ by <a href="https://github.com/ind4skylivey">ind4skylivey</a></sub>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-Python-ff6b6b?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Powered%20by-AsyncIO-00d4ff?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/Built_by-ind4skylivey-ff0040?style=for-the-badge&labelColor=0d1117"/>
 </p>

@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Train HoneyTrap ML models")
+    parser = argparse.ArgumentParser(description="Train ShadowLure ML models")
     parser.add_argument(
         "--data",
         type=str,

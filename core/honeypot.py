@@ -1,5 +1,5 @@
 """
-HoneyTrap Main Orchestrator
+ShadowLure Main Orchestrator
 
 Manages all honeypot services lifecycle, coordinates startup/shutdown,
 and handles graceful termination.
@@ -36,7 +36,7 @@ class HoneypotOrchestrator:
         self._services: dict[str, BaseHoneypotService] = {}
         self._running = False
         self._shutdown_event = asyncio.Event()
-        self._logger = get_logger("honeytrap.orchestrator")
+        self._logger = get_logger("shadowlure.orchestrator")
 
     @property
     def is_running(self) -> bool:
@@ -299,7 +299,7 @@ async def create_orchestrator(
 
 async def main(config_path: Optional[str] = None) -> None:
     """
-    Main entry point for running HoneyTrap.
+    Main entry point for running ShadowLure.
 
     Args:
         config_path: Optional path to configuration file

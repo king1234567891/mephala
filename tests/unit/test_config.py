@@ -119,7 +119,7 @@ class TestMainConfig:
     """Tests for main configuration class."""
 
     def test_explicit_config(self, monkeypatch):
-        monkeypatch.delenv("HONEYTRAP_ENV", raising=False)
+        monkeypatch.delenv("SHADOWLURE_ENV", raising=False)
         monkeypatch.delenv("DEBUG", raising=False)
         monkeypatch.delenv("DATABASE_URL", raising=False)
 
@@ -159,7 +159,7 @@ class TestMainConfig:
 
     def test_from_yaml(self, monkeypatch):
         # Clear environment variables that might interfere
-        monkeypatch.delenv("HONEYTRAP_ENV", raising=False)
+        monkeypatch.delenv("SHADOWLURE_ENV", raising=False)
         monkeypatch.delenv("DEBUG", raising=False)
         monkeypatch.delenv("DATABASE_URL", raising=False)
 
@@ -202,7 +202,7 @@ class TestConfigLoading:
 
     def test_load_config_from_yaml(self, monkeypatch):
         # Clear environment variables that might interfere
-        monkeypatch.delenv("HONEYTRAP_ENV", raising=False)
+        monkeypatch.delenv("SHADOWLURE_ENV", raising=False)
         monkeypatch.delenv("DEBUG", raising=False)
         monkeypatch.delenv("DATABASE_URL", raising=False)
 
