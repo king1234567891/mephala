@@ -12,10 +12,6 @@
   <sub>Advanced Honeypot System with ML-Powered Threat Intelligence</sub>
 </p>
 
-<p align="center">
-  <em>"Secrets are her domain. Lies are her web. All who enter... are caught."</em>
-</p>
-
 <br/>
 
 <p align="center">
@@ -50,6 +46,33 @@
                                     ║       The Webspinner v1.0       ║
                                     ╚═════════════════════════════════╝
 ```
+
+<br/>
+
+<p align="center">
+<table>
+<tr>
+<td>
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   "Go now, weave your web across the network.                 ║
+║    Let the secrets flow to you.                               ║
+║    Let the lies trap the unwary.                              ║
+║    The Webspinner watches. The Webspinner waits."             ║
+║                                                               ║
+║                    — Blessing of Mephala                      ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</td>
+</tr>
+</table>
+</p>
+
+<br/>
 
 ---
 
@@ -368,6 +391,59 @@ pytest tests/ --cov=core --cov=services --cov=ml --cov=api
 
 # Results
 ============================= 155 passed ==============================
+```
+
+---
+
+## ༺ Why Mephala? ༻
+
+How does Mephala compare to other honeypot frameworks?
+
+| Feature | Mephala | Cowrie | T-Pot | Dionaea | HoneyTrap |
+|:--------|:-------:|:------:|:-----:|:-------:|:---------:|
+| **SSH Honeypot** | ✅ | ✅ | ✅ | ❌ | ✅ |
+| **HTTP Honeypot** | ✅ | ❌ | ✅ | ✅ | ✅ |
+| **FTP Honeypot** | ✅ | ❌ | ✅ | ✅ | ✅ |
+| **ML Classification** | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **Anomaly Detection** | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **Auto Threat Scoring** | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **Real-time Dashboard** | ✅ Vue.js | ❌ | ✅ Kibana | ❌ | ❌ |
+| **WebSocket Live Feed** | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **REST API** | ✅ FastAPI | ❌ | ❌ | ❌ | ❌ |
+| **Single Codebase** | ✅ Python | ✅ Python | ❌ Multi | ❌ C | ✅ Go |
+| **Modern Async** | ✅ asyncio | ❌ Twisted | ❌ | ❌ | ✅ |
+| **Lightweight** | ✅ | ✅ | ❌ Heavy | ✅ | ✅ |
+| **Easy Deploy** | ✅ | ✅ | ⚠️ Complex | ⚠️ | ✅ |
+
+### What Makes Mephala Unique
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│  🧠 ML-POWERED INTELLIGENCE                                         │
+│     → Random Forest classifier for attack categorization            │
+│     → Isolation Forest for zero-day anomaly detection               │
+│     → Automatic severity scoring (1-10)                             │
+│     → Real-time threat classification                               │
+│                                                                     │
+│  ⚡ MODERN ARCHITECTURE                                              │
+│     → Pure Python 3.10+ with native asyncio                         │
+│     → FastAPI REST endpoints                                        │
+│     → WebSocket real-time streaming                                 │
+│     → Vue.js 3 reactive dashboard                                   │
+│                                                                     │
+│  🎯 ALL-IN-ONE SOLUTION                                             │
+│     → SSH + HTTP + FTP in single deployment                         │
+│     → No Elasticsearch/Kibana dependency                            │
+│     → Lightweight compared to T-Pot (~8GB RAM vs ~256MB)            │
+│     → Single language, single codebase                              │
+│                                                                     │
+│  🕷️ UNIQUE IDENTITY                                                  │
+│     → Skyrim-inspired Daedric aesthetic                             │
+│     → Professional documentation                                    │
+│     → Active development                                            │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
