@@ -8,7 +8,7 @@
 
 <p align="center">
   <strong>Daedric Deception Platform</strong><br/>
-  <sub>ML-Powered Threat Intelligence Honeypot</sub>
+  <sub>Advanced Honeypot System with ML-Powered Threat Intelligence</sub>
 </p>
 
 <p align="center">
@@ -34,120 +34,212 @@
 <br/>
 
 ```
-                            ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-                         ▄█▀                               ▀█▄
-                       ▄█▀   ███╗   ███╗███████╗██████╗  ██╗  ██╗ █████╗ ██╗      █████╗    ▀█▄
-                      █▀    ████╗ ████║██╔════╝██╔══██╗██║  ██║██╔══██╗██║     ██╔══██╗     ▀█
-                     █▌     ██╔████╔██║█████╗  ██████╔╝███████║███████║██║     ███████║      ▐█
-                     █▌     ██║╚██╔╝██║██╔══╝  ██╔═══╝ ██╔══██║██╔══██║██║     ██╔══██║      ▐█
-                      █▄    ██║ ╚═╝ ██║███████╗██║     ██║  ██║██║  ██║███████╗██║  ██║     ▄█
-                       ▀█▄  ╚═╝     ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ▄█▀
-                         ▀█▄                                                             ▄█▀
-                            ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-                                     ╔═══════════════════════════════╗
-                                     ║   DAEDRIC PRINCE OF SECRETS   ║
-                                     ║      The Webspinner v1.0      ║
-                                     ╚═══════════════════════════════╝
+                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+                      ▄█▀                                                     ▀█▄
+                    ▄█▀  ███╗   ███╗███████╗██████╗ ██╗  ██╗ █████╗ ██╗      █████╗  ▀█▄
+                   █▀    ████╗ ████║██╔════╝██╔══██╗██║  ██║██╔══██╗██║     ██╔══██╗   ▀█
+                  █▌     ██╔████╔██║█████╗  ██████╔╝███████║███████║██║     ███████║    ▐█
+                  █▌     ██║╚██╔╝██║██╔══╝  ██╔═══╝ ██╔══██║██╔══██║██║     ██╔══██║    ▐█
+                   █▄    ██║ ╚═╝ ██║███████╗██║     ██║  ██║██║  ██║███████╗██║  ██║   ▄█
+                    ▀█▄  ╚═╝     ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ▄█▀
+                      ▀█▄                                                         ▄█▀
+                         ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                                    ╔═════════════════════════════════╗
+                                    ║    DAEDRIC PRINCE OF SECRETS    ║
+                                    ║       The Webspinner v1.0       ║
+                                    ╚═════════════════════════════════╝
 ```
 
 ---
 
-## ༺ The Web ༻
+## ༺ What is Mephala? ༻
 
-**Mephala** — named after the Daedric Prince of secrets, lies, and hidden plots — is a high-interaction deception platform that weaves a web of fake services to ensnare attackers and harvest their secrets.
+**Mephala** is a high-interaction honeypot that simulates vulnerable network services to **trap attackers** and **harvest intelligence**.
 
 ```
-                                    ┌─────────────┐
-                                    │   ATTACKER  │
-                                    └──────┬──────┘
-                                           │
-                          ╔════════════════╧════════════════╗
-                          ║         MEPHALA'S WEB           ║
-                          ╚════════════════╤════════════════╝
-                                           │
-                    ┌──────────────────────┼──────────────────────┐
-                    │                      │                      │
-              ┌─────┴─────┐          ┌─────┴─────┐          ┌─────┴─────┐
-              │    SSH    │          │   HTTP    │          │    FTP    │
-              │   :2222   │          │   :8080   │          │   :2121   │
-              │  ◈ TRAP   │          │  ◈ TRAP   │          │  ◈ TRAP   │
-              └─────┬─────┘          └─────┬─────┘          └─────┬─────┘
-                    │                      │                      │
-                    └──────────────────────┼──────────────────────┘
-                                           │
-                                    ┌──────┴──────┐
-                                    │  🕷️ ML      │
-                                    │  CLASSIFIER │
-                                    └──────┬──────┘
-                                           │
-                                    ┌──────┴──────┐
-                                    │  KNOWLEDGE  │
-                                    │    VAULT    │
-                                    └─────────────┘
+┌──────────────┐                                              ┌──────────────┐
+│   ATTACKER   │ ──► Thinks it's a real server ──► TRAPPED ──►│  MEPHALA DB  │
+└──────────────┘                                              └──────────────┘
+                                                                     │
+                              Credentials, commands, payloads,       │
+                              IPs, techniques, malware samples       │
+                                                                     ▼
+                                                              ┌──────────────┐
+                                                              │  DASHBOARD   │
+                                                              │  Real-time   │
+                                                              └──────────────┘
+```
+
+> Named after the **Daedric Prince of secrets, lies, and webs of deceit** from *The Elder Scrolls V: Skyrim*.
+
+---
+
+## ༺ The Traps ༻
+
+Mephala weaves three deadly threads to ensnare intruders:
+
+| Thread | Port | Disguise | What It Captures |
+|:-------|:----:|:---------|:-----------------|
+| 🔐 **SSH** | `2222` | Linux OpenSSH server | Usernames, passwords, shell commands, session recordings |
+| 🌐 **HTTP** | `8080` | WordPress, phpMyAdmin | SQL injection, XSS attempts, file uploads, request payloads |
+| 📁 **FTP** | `2121` | vsftpd file server | Credentials, uploaded malware, directory traversal attempts |
+
+### SSH Trap Features
+```
+◈ Credential harvesting (username/password capture)
+◈ Fake shell with 25+ Linux commands (ls, cat, wget, curl, etc.)
+◈ Virtual filesystem (/etc/passwd, /etc/shadow, realistic structure)
+◈ Session recording (every keystroke logged)
+◈ Malicious command detection (wget, curl, chmod +x patterns)
+```
+
+### HTTP Trap Features
+```
+◈ WordPress login simulation (wp-login.php, wp-admin)
+◈ phpMyAdmin honeytokens
+◈ SQL injection detection (UNION, SELECT, DROP, etc.)
+◈ XSS payload capture (<script>, onerror, javascript:)
+◈ RCE attempt detection (;, |, $(), backticks)
+◈ File upload quarantine
+```
+
+### FTP Trap Features
+```
+◈ Anonymous and authenticated access
+◈ Passive (PASV) and Active (PORT) mode support
+◈ Uploaded file capture and quarantine
+◈ Directory listing with fake files
+◈ Path traversal detection (../, %2e%2e)
 ```
 
 ---
 
-## ༺ Artifacts ༻
+## ༺ The Spider — ML Engine ༻
 
-<table>
-<tr>
-<td width="50%">
+Every attack is analyzed by Mephala's machine learning brain:
 
-### 🔐 SSH Web
 ```
-◈ Credential harvesting
-◈ Fake shell (25+ commands)
-◈ Virtual filesystem
-◈ Session recording
-◈ Malicious payload detection
-```
-
-</td>
-<td width="50%">
-
-### 🌐 HTTP Web
-```
-◈ WordPress simulation
-◈ phpMyAdmin traps
-◈ SQLi/XSS/RCE detection
-◈ File upload capture
-◈ Request forensics
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📁 FTP Web
-```
-◈ Anonymous access traps
-◈ Passive/Active modes
-◈ Malware quarantine
-◈ Transfer logging
-◈ Path traversal detection
+                    ┌─────────────────┐
+    Attack ────────►│  PREPROCESSOR   │──── Feature Extraction
+                    └────────┬────────┘     (TF-IDF, patterns, IP analysis)
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │   CLASSIFIER    │──── Random Forest
+                    │  (Random Forest)│     Multi-class classification
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │ ANOMALY DETECTOR│──── Isolation Forest
+                    │(Isolation Forest)│    Zero-day detection
+                    └────────┬────────┘
+                             │
+                             ▼
+              ┌──────────────────────────────┐
+              │  THREAT CLASSIFICATION       │
+              │  + Severity Score (1-10)     │
+              │  + Confidence Level          │
+              └──────────────────────────────┘
 ```
 
-</td>
-<td width="50%">
+### Threat Classifications
 
-### 🕷️ ML Classification
-```
-◈ Random Forest classifier
-◈ Isolation Forest anomaly
-◈ Real-time threat scoring
-◈ Auto-labeling pipeline
-◈ Model versioning
-```
-
-</td>
-</tr>
-</table>
+| Type | Description | Severity |
+|:-----|:------------|:--------:|
+| `reconnaissance` | Port scanning, service enumeration | 🟢 Low |
+| `brute_force` | Credential stuffing, password spraying | 🟡 Medium |
+| `sql_injection` | Database manipulation attempts | 🔴 High |
+| `xss` | Cross-site scripting payloads | 🟡 Medium |
+| `rce` | Remote code execution attempts | ⚫ Critical |
+| `path_traversal` | Directory escape attempts | 🟠 High |
+| `credential_theft` | Password/token harvesting | 🟠 High |
 
 ---
 
-## ༺ Summoning ༻
+## ༺ The Eye — Dashboard ༻
+
+Real-time visualization of the web's activity:
+
+| View | Description |
+|:-----|:------------|
+| **Live Feed** | Real-time stream of attacks as they happen |
+| **World Map** | Geographic visualization of attack origins (Leaflet) |
+| **Timeline** | Attack frequency over time (Chart.js) |
+| **Statistics** | Total attacks, unique IPs, severity breakdown |
+| **Attack Details** | Deep dive into individual attack sessions |
+
+---
+
+## ༺ Use Cases ༻
+
+| Purpose | Benefit |
+|:--------|:--------|
+| **Threat Research** | Study real attacker behavior, TTPs, and tools |
+| **Threat Intelligence** | Collect IOCs (IPs, payloads, signatures, malware) |
+| **Early Warning System** | Detect attackers probing your network before they hit real assets |
+| **Deception Defense** | Waste attacker time and resources on fake targets |
+| **Security Training** | Learn attack patterns in a safe, controlled environment |
+| **SOC Enrichment** | Feed captured data into SIEM/SOAR platforms |
+
+---
+
+## ༺ Architecture ༻
+
+```
+mephala/
+├── core/                   # ◈ System Core
+│   ├── base_service.py     #   Abstract honeypot base class
+│   ├── config.py           #   Pydantic configuration management
+│   ├── database.py         #   SQLAlchemy async ORM (PostgreSQL/SQLite)
+│   ├── honeypot.py         #   Main orchestrator & lifecycle manager
+│   └── logger.py           #   Structured logging (JSON/text)
+│
+├── services/               # ◈ Honeypot Services
+│   ├── ssh_honeypot.py     #   SSH trap (asyncssh)
+│   ├── http_honeypot.py    #   HTTP trap (aiohttp)
+│   ├── ftp_honeypot.py     #   FTP trap (asyncio)
+│   └── utils/
+│       ├── fake_filesystem.py   # Virtual Linux filesystem
+│       ├── response_templates.py # Realistic banners & responses
+│       └── session_manager.py    # Session tracking & statistics
+│
+├── ml/                     # ◈ Machine Learning Pipeline
+│   ├── preprocessor.py     #   Feature extraction (TF-IDF, patterns)
+│   ├── models.py           #   Random Forest + Isolation Forest
+│   ├── trainer.py          #   Training pipeline with GridSearchCV
+│   └── predictor.py        #   Real-time classification with caching
+│
+├── api/                    # ◈ REST API (FastAPI)
+│   ├── server.py           #   Application factory, CORS, lifespan
+│   ├── auth.py             #   JWT authentication (passlib/bcrypt)
+│   ├── models.py           #   Pydantic request/response schemas
+│   └── routes/
+│       ├── attacks.py      #   CRUD endpoints for attacks
+│       ├── stats.py        #   Statistics & analytics endpoints
+│       └── websocket.py    #   Real-time WebSocket feed
+│
+├── dashboard/              # ◈ Frontend (Vue.js 3)
+│   └── src/
+│       ├── components/     #   StatCard, LiveFeed, Charts
+│       ├── views/          #   Dashboard, Attacks, AttackMap
+│       ├── stores/         #   Pinia state management
+│       └── services/       #   Axios API client
+│
+├── docker/                 # ◈ Containerization
+│   ├── Dockerfile          #   Multi-stage build, non-root user
+│   ├── docker-compose.yml  #   Full stack orchestration
+│   └── nginx.conf          #   Reverse proxy configuration
+│
+└── scripts/                # ◈ Utilities
+    ├── setup.sh            #   Automated environment setup
+    ├── train_models.py     #   ML model training CLI
+    └── seed_database.py    #   Test data generation
+```
+
+---
+
+## ༺ Quick Start ༻
 
 ### Docker (Recommended)
 
@@ -156,153 +248,156 @@
 git clone https://github.com/ind4skylivey/mephala.git
 cd mephala
 
-# Configure the ritual
+# Configure secrets
 cp .env.example .env
-nano .env  # Set your secrets
+nano .env
 
-# Summon
+# Summon the web
 cd docker && docker-compose up -d
 
-# Observe the web
+# Watch the threads
 docker-compose logs -f mephala
 ```
 
-### Manual Ritual
+### Manual Installation
 
 ```bash
+# Clone
 git clone https://github.com/ind4skylivey/mephala.git
 cd mephala
 
-# Prepare
-chmod +x scripts/setup.sh && ./scripts/setup.sh
+# Setup environment
+chmod +x scripts/setup.sh
+./scripts/setup.sh
 
-# Initialize vault
+# Initialize database
 alembic upgrade head
 
-# Spin the web (3 terminals)
-python core/honeypot.py                        # Traps
-uvicorn api.server:app --reload --port 8000    # Interface
-cd dashboard && npm install && npm run dev     # Vision
+# Start services (3 terminals)
+python core/honeypot.py                        # Honeypot traps
+uvicorn api.server:app --reload --port 8000    # REST API
+cd dashboard && npm install && npm run dev     # Dashboard
 ```
 
 ---
 
-## ༺ Architecture ༻
+## ༺ API Reference ༻
 
+### Authentication
+```bash
+# Obtain JWT token
+curl -X POST http://localhost:8000/api/v1/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"username": "admin", "password": "admin123"}'
 ```
-mephala/
-├── core/                   # ◈ The Heart
-│   ├── base_service.py     #   Abstract trap class
-│   ├── config.py           #   Configuration weave
-│   ├── database.py         #   Knowledge vault
-│   ├── honeypot.py         #   Web orchestrator
-│   └── logger.py           #   Secret keeper
-│
-├── services/               # ◈ The Threads
-│   ├── ssh_honeypot.py     #   SSH silk
-│   ├── http_honeypot.py    #   HTTP silk
-│   ├── ftp_honeypot.py     #   FTP silk
-│   └── utils/              #   Illusions
-│
-├── ml/                     # ◈ The Spider
-│   ├── preprocessor.py     #   Pattern sensing
-│   ├── models.py           #   Prey classification
-│   ├── trainer.py          #   Learning hunger
-│   └── predictor.py        #   Strike prediction
-│
-├── api/                    # ◈ The Voice
-│   ├── server.py           #   Whisper gateway
-│   ├── auth.py             #   Trust verification
-│   └── routes/             #   Secret paths
-│
-├── dashboard/              # ◈ The Eye
-│   └── src/
-│       ├── components/     #   Vision fragments
-│       ├── views/          #   Sight windows
-│       └── stores/         #   Memory threads
-│
-└── docker/                 # ◈ The Vessel
-    ├── Dockerfile          #   Container form
-    └── docker-compose.yml  #   Summoning circle
-```
+
+### Endpoints
+
+| Method | Endpoint | Description |
+|:-------|:---------|:------------|
+| `POST` | `/api/v1/auth/login` | Get JWT access token |
+| `GET` | `/api/v1/attacks` | List attacks (paginated, filterable) |
+| `GET` | `/api/v1/attacks/{id}` | Get attack details with related data |
+| `POST` | `/api/v1/attacks/search` | Advanced search with filters |
+| `DELETE` | `/api/v1/attacks/{id}` | Delete attack record |
+| `GET` | `/api/v1/stats/overview` | Dashboard statistics |
+| `GET` | `/api/v1/stats/timeline` | Attack frequency over time |
+| `GET` | `/api/v1/stats/geographic` | Geographic distribution |
+| `GET` | `/api/v1/stats/top-attackers` | Most active source IPs |
+| `GET` | `/api/v1/stats/attack-types` | Attack type distribution |
+| `WS` | `/ws/live` | Real-time attack feed |
 
 ---
 
-## ༺ Prey Classification ༻
+## ༺ Configuration ༻
 
-| Type | Pattern | Severity |
-|:-----|:--------|:--------:|
-| `reconnaissance` | Probing the web | 🟢 |
-| `brute_force` | Forcing entry | 🟡 |
-| `sql_injection` | Corrupting knowledge | 🔴 |
-| `xss` | Injecting venom | 🟡 |
-| `rce` | Seizing control | ⚫ |
-| `path_traversal` | Escaping threads | 🟠 |
-| `credential_theft` | Stealing secrets | 🟠 |
-
----
-
-## ༺ Interface ༻
+### Environment Variables
 
 ```bash
-# Obtain trust
-POST /api/v1/auth/login
+# Core
+MEPHALA_ENV=production
+DEBUG=false
 
-# Query the web
-GET  /api/v1/attacks        # List captured
-GET  /api/v1/attacks/{id}   # Examine prey
-POST /api/v1/attacks/search # Hunt specific
+# Database (PostgreSQL recommended)
+DATABASE_URL=postgresql+asyncpg://mephala:secret@localhost:5432/mephala
 
-# Read the patterns
-GET  /api/v1/stats/overview    # Web status
-GET  /api/v1/stats/timeline    # Activity threads
-GET  /api/v1/stats/geographic  # Origin mapping
+# Cache
+REDIS_URL=redis://localhost:6379/0
 
-# Live vision
-WS   /ws/live               # Real-time feed
+# API Security
+API_SECRET_KEY=your-32-char-secret-key
+API_ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# Service Ports
+SSH_PORT=2222
+HTTP_PORT=8080
+FTP_PORT=2121
+
+# Logging
+LOG_LEVEL=INFO
+LOG_FORMAT=json
 ```
 
 ---
 
-## ༺ Access Points ༻
+## ༺ Tech Stack ༻
 
-| Thread | Port | Purpose |
-|:-------|:----:|:--------|
-| SSH Trap | `2222` | Credential web |
-| HTTP Trap | `8080` | Request web |
-| FTP Trap | `2121` | Transfer web |
-| API | `8000` | Command interface |
-| Dashboard | `3000` | The All-Seeing Eye |
+| Layer | Technology |
+|:------|:-----------|
+| **Language** | Python 3.10+ |
+| **Async Framework** | asyncio, asyncssh, aiohttp |
+| **API** | FastAPI, Uvicorn |
+| **Database** | PostgreSQL (async), SQLAlchemy 2.0 |
+| **Cache** | Redis |
+| **ML** | scikit-learn (Random Forest, Isolation Forest) |
+| **Frontend** | Vue.js 3, Pinia, Chart.js, Leaflet |
+| **Containerization** | Docker, docker-compose |
+| **Reverse Proxy** | nginx |
 
 ---
 
 ## ༺ Testing ༻
 
 ```bash
-# Verify the web
+# Run all tests
 pytest tests/ -v
 
-# With coverage
-pytest tests/ --cov=core --cov=services --cov=ml
+# With coverage report
+pytest tests/ --cov=core --cov=services --cov=ml --cov=api
 
-# ✓ 155 threads intact
+# Results
+============================= 155 passed ==============================
 ```
+
+---
+
+## ༺ Roadmap ༻
+
+- [ ] Telnet honeypot
+- [ ] SMTP honeypot
+- [ ] MySQL/PostgreSQL honeypot
+- [ ] Elasticsearch integration
+- [ ] Slack/Telegram alerting
+- [ ] MITRE ATT&CK mapping
+- [ ] Threat feed export (STIX/TAXII)
+- [ ] Kubernetes Helm chart
 
 ---
 
 ## ༺ Warning ༻
 
 ```
-⚠️  BY THE DAEDRIC COVENANT
+⚠️  AUTHORIZED USE ONLY
 
-This artifact is bound for:
-  → Authorized security research
-  → Permitted penetration testing
-  → Educational enlightenment
+This tool is intended for:
+  → Security research on owned infrastructure
+  → Authorized penetration testing engagements
+  → Educational and training purposes
+  → Threat intelligence gathering on controlled networks
 
-Deploy only upon domains you rightfully control.
-The Webspinner assumes no liability for misuse.
-Those who abuse the gift shall face their own web.
+Deploy only on networks you own or have explicit written permission to test.
+The authors assume no liability for misuse or damage caused by this software.
+Unauthorized deployment may violate local laws and regulations.
 ```
 
 ---
@@ -311,10 +406,14 @@ Those who abuse the gift shall face their own web.
 
 ```
 MIT License
+
 Copyright (c) 2024 ind4skylivey
 
-"In the name of Mephala, secrets are kept,
- and lies are woven into truth."
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
 ```
 
 ---
@@ -327,7 +426,7 @@ Copyright (c) 2024 ind4skylivey
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Woven_by-ind4skylivey-8b5cf6?style=for-the-badge&labelColor=0d0d0d"/>
+  <img src="https://img.shields.io/badge/Crafted_by-ind4skylivey-8b5cf6?style=for-the-badge&labelColor=0d0d0d"/>
 </p>
 
 <p align="center">
