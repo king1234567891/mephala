@@ -28,6 +28,8 @@
   <img src="https://img.shields.io/badge/license-BSL_1.1-8b5cf6?style=flat-square&labelColor=0d0d0d" alt="License"/>
 </p>
 
+> **Proprietary Notice:** This repository is proprietary and all rights are reserved. Unauthorized use, copying, modification, distribution, or sale is prohibited. Fixed fingerprint: `MEPHALA-FP-2025-eac5a8a58376b2fc1fb6ebef9e5b75c459bc5f8968b6d0ad60c9820a5d018659`. For permissions or inquiries, contact `livey_sh13lds1b22@keemail.me`.
+
 <br/>
 
 ```

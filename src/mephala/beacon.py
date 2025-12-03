@@ -1,4 +1,4 @@
-# mephala (proprietary) | Fingerprint: MEPAHLA-FP-2025-REPLACE-ME-WITH-256BIT-HEX
+# mephala (proprietary) | Fingerprint: MEPHALA-FP-2025-eac5a8a58376b2fc1fb6ebef9e5b75c459bc5f8968b6d0ad60c9820a5d018659
 # Copyright (c) 2025 ind4skylivey
 # All rights reserved. Unauthorized use, copying, modification, distribution, or sale is prohibited.
 """Optional telemetry beacon for mephala (proprietary)."""

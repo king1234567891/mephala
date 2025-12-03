@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# mephala (proprietary) | Fingerprint: MEPAHLA-FP-2025-REPLACE-ME-WITH-256BIT-HEX
+# mephala (proprietary) | Fingerprint: MEPHALA-FP-2025-eac5a8a58376b2fc1fb6ebef9e5b75c459bc5f8968b6d0ad60c9820a5d018659
 # Copyright (c) 2025 ind4skylivey
 # All rights reserved. Unauthorized use, copying, modification, distribution, or sale is prohibited.
 """Generate canonical fingerprint for all Python files in the repository."""
@@ -25,7 +25,7 @@ EXCLUDE_DIRS = {
     ".vscode",
 }
 
-FIXED_TAG = "MEPAHLA-FP-2025-REPLACE-ME-WITH-256BIT-HEX"
+FIXED_TAG = "MEPHALA-FP-2025-eac5a8a58376b2fc1fb6ebef9e5b75c459bc5f8968b6d0ad60c9820a5d018659"
 FINGERPRINT_FILE = ".fingerprint"
 
 
